@@ -1,0 +1,6 @@
+To convert tabs to spaces use the commands below in the order below:
+
+:set noexpandtab
+:retab!
+:set expandtab
+:retab!
