@@ -1,0 +1,27 @@
+echo "# rest-flask-pymongo" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/pratikdhage003/rest-flask-pymongo.git
+git push -u origin master
+git branch
+git add README.md 
+git commit -m "updated" README.md 
+git status
+git push -u origin master
+git status
+git add restPyMongo.py 
+git status
+git commit -m "Adding RestPyManfo to the Master" restPyMongo.py 
+git status
+git push -u origin master
+git status
+git add templates/
+git status
+git add templates/cities.html 
+git commit templates/cities.html 
+git commit -m "Adding templates/cities.html" templates/cities.html 
+git push -u origin master
+git status
+git commit -m "updated templates/cities.html" templates/cities.html  
+git push -u origin master
