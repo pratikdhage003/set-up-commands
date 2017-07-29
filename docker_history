@@ -1,0 +1,88 @@
+  355  vim docker-compose.yml 
+  388  vim docker-compose.yml 
+  390  docker-compose build
+  391  docker-compose up
+  405  vim docker-compose.yml 
+  410  docker-compose build
+  411  docker-compose up
+  412  docker ps
+  416  docker run -d -p 8000:80 nginx
+  417  docker run -d -p 8001:80 nginx
+  418  curl $(docker-machine ip default):8001
+  419  docker run -d -p 8000:80 nginx
+  420  docker run -d -p 8000:80 nginx
+  423  vim docker-compose.yml 
+  424  docker run -d -p 8000:80 nginx
+  430  vim docker-compose.yml 
+  431  docker-compose build
+  432  docker-compose up
+  439  vim docker-compose.yml 
+  443  docker run -d -p 8000:80 nginx
+  444  curl $(docker-machine ip default):8000
+  445  docker-machine stop default
+  446  docker-machine start default
+  447  docker-machine env
+  448  docker-machine ip default
+  449  docker run -d -p 8000:80 nginx
+  450  docker run -d -p 8000:80 nginx
+  451  docker run -it -p 80:80 -p 443:443 nginx
+  452  docker-compose up -d
+  467  docker-compose up -d
+  468  docker-compose down
+  472  docker run -p 80:80 -d nginx
+  473  sudo setcap cap_net_bind_service=+ep `which docker-compose`
+  474  docker-machine ip
+  480  vim docker-compose.yml 
+  488  vim docker-compose.yml 
+  492  docker-machine ip
+  499  vim docker-compose.yml 
+  506  vim docker-compose.yml 
+  539  vim docker-compose.yml 
+  540  vim docker-compose.yml 
+  541  vim docker-compose.yml 
+  543  docker-compose build
+  544  docker-compose up
+  545  docker-compose up --build
+  547  vim docker-compose.yml 
+  548  docker-compose build
+  549  docker-compose build
+  550  docker-compose up
+  551  vim docker-compose.yml 
+  552  docker-compose up
+  553  docker-compose build
+  554  docker-compose up
+  555  docker-compose up --build
+  573  docker-compose build
+  574  docker-compose up
+  587  docker-compose build
+  588  docker-compose up
+  597  docker-compose up
+  605  docker-compose build
+  606  docker-compose up
+  627  vim docker-compose.yml 
+  638  vim docker-compose.yml 
+  639  docker-compose build
+  640  docker-compose up
+  784  vim docker-compose.yml 
+  785  docker-compose build
+  787  vim docker-compose.yml 
+  788  docker-compose build
+  789  docker-compose up
+  790  docker-compose build
+  791  docker-compose up
+  794  vim docker-compose.yml 
+  795  docker-compose build
+  796  docker-compose up
+  812  git commit -m "updated port for flask server in docker-compose.yml" docker-compose.yml
+  825  vim docker-compose.yml 
+  826  docker-compose build
+  827  docker-compose up
+  828  vim docker-compose.yml 
+  830  docker-stop machhine
+  832  docker-stop machine
+  833  docker stop machine
+  834  docker stop 
+  835  docker --help
+  836  docker history
+  837  history grep|docker > docker_history.txt
+  853  history | grep "docker" > docker_history
